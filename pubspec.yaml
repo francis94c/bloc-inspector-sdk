@@ -16,8 +16,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  nsd:
-    path: ../../packages/nsd/nsd
   tcp_client_dart: ^0.2.0
   logger: ^2.4.0
   flutter_bloc: ^8.0.1
@@ -25,6 +23,11 @@ dependencies:
   freezed_annotation: ^2.1.0
   synchronized: ^3.0.0
   dio: ^5.7.0
+  nsd:
+    git:
+      url: https://github.com/francis94c/nsd
+      ref: main
+      path: nsd
 
 dev_dependencies:
   flutter_test:
